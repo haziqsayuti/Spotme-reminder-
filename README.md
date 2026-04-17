@@ -5,7 +5,7 @@ Sbb chrome spotme akan maximize tak kira kita tgh buat apa..tgk youtube ke, tgh 
 Tapi ulasan still kena masukkan sendiri..so that MASA daftar pergerakan tu takdalah sama jam, minit dan saat tu tiap jam.
 
 ## ⚠️ Disclaimer
-**Guna atas risiko sendiri ya ** Script ni dibuat untuk tujuan 'educational' je hehe. Sendiri nak mudah, sendiri tanggung risiko!
+**Guna atas risiko sendiri ya ** Script ni dibuat untuk tujuan 'educational' je. Sendiri nak mudah, sendiri tanggung risiko!
 
 ## Benda Kena Ada (Prerequisites)
 Sebelum nak start run script ni, pastikan laptop/PC korang dah install benda-benda ni:
@@ -17,9 +17,15 @@ Sebelum nak start run script ni, pastikan laptop/PC korang dah install benda-ben
 3. Taip command kat bawah ni untuk install library Selenium, lepas tu tekan Enter:
    `pip install selenium`
 
-## Macam Mana Nak Guna (Setup & Usage)
+## First time Run sahaja!
 1. Buka file `Spotme_reminder_1hour` tu guna text editor macam Notepad/Visual Studio Code.
 2. Cari bahagian login. Tukar `"YOUR_IC_NUMBER"` and `"YOUR_NEW_PASSWORD"` letak IC dan password korang yang betul. Lepas tu **Save** file tu! 
 3. Buka balik Command Prompt (cmd), pergi kat folder tempat korang save script tu, and run
    command utk run : `python Spotme_reminder_1hour.py`
-4. Nanti script tu akan buka Chrome, auto login, klik button Daftar Pergerakan tu, bila dah settel daftar pergerakan utk 1st korang biar ja chrome tu tak perlu tutup dia akan tggu dekat background untuk next hour. **Penting:** Jangan tutup (close) window CMD tu! Biar je dia jalan kat situ.
+4. Nanti script tu akan buka Chrome, auto login, klik button Daftar Pergerakan tu, bila dah settel daftar pergerakan utk 1st korang biar ja chrome tu tak perlu tutup dia akan tggu dekat background untuk next hour. **Penting:** Jangan tutup (close) window CMD tu! Biar je dia jalan in background.
+
+## For next time!
+1. Tak perlu command guna cmd dah
+2. Double click ja dekat file python `Spotme_reminder_1hour` ni, cmd akan run automatically
+3. **Sekali lagi:** Jangan tutup (close) window CMD tu bila dah run! Biar je dia jalan in background.
+
