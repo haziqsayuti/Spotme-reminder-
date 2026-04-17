@@ -1,4 +1,4 @@
-# Spot Me Reminder sahaha
+# Spot Me Reminder! sahaja
 
 Script Python ni tolong korang auto-login sistem "Spot Me" (first time masuk shj) and tolong klik button "Daftar Pergerakan" setiap jam, so senang cerita, korang boleh chill buat kerja lain tanpa lupa spotme every 1 hour.
 Sbb chrome spotme akan maximize tak kira kita tgh buat apa..tgk youtube ke, tgh buka software lain dll.
